@@ -1,0 +1,186 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.navigation-bar {
+    position: absolute;
+    top: 60px;
+    width: 100%;
+    margin-top: 25px;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    flex-wrap: wrap;
+
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #8B4513;
+}
+
+.hero-section {
+    background-image: url('https://meatingroom.lt/wp-content/uploads/2024/01/meniu1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 65vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.content {
+    font-size: 4rem;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    margin: 70px 0 10px 0;
+    font-size: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.button {
+    text-transform: uppercase;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    padding: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.button:hover {
+    color: white;
+    background-color: #8B4513;
+    border-color: #8B4513;
+}
+
+.menu-images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-color: #dad8d6;
+    width: 100%;
+    box-sizing: border-box;
+    flex-shrink: 0;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+.footer-content {
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+
+.footer-line {
+    display: flex;
+    justify-content: space-between;
+    gap: 300px;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+
+.footer-section {
+    text-align: left;
+
+}
+
+
+.footer-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.footer-list li {
+    margin-bottom: 10px;
+
+}
+
+.footer-bottom {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+
+.footer-list a {
+    color: #8B4513;
+    text-decoration: none;
+
+}
+
+.footer-list a:hover {
+    text-decoration: underline;
+
+}
+
+.logos {
+    margin-bottom: 5px;
+
+}
+
+.logos a {
+    margin: 0 5px;
+
+}
+
+
+.footer-text p {
+    font-size: 12px;
+    margin: 0;
+    text-align: center;
+
+}
